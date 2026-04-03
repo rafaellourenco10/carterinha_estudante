@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carteirinha de Estudante</title>
+</head>
+<body>
+  <h1>Carteirinha de Estudante</h1>
+
+  <!-- Formulário -->
+  <form id="formCarteirinha">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome"><br><br>
+
+    <label for="curso">Curso:</label><br>
+    <input type="text" id="curso"><br><br>
+
+    <label for="matricula">Matrícula:</label><br>
+    <input type="text" id="matricula"><br><br>
+
+    <label for="foto">Link da Foto:</label><br>
+    <input type="text" id="foto"><br><br>
+
+    <label for="site">Site da Instituição:</label><br>
+    <input type="text" id="site"><br><br>
+
+    <button type="button" id="gerar">Gerar Carteirinha</button>
+    <button type="reset">Limpar</button>
+  </form>
+
+  <hr>
+
+  <!-- Área da carteirinha -->
+  <div id="carteirinha">
+    <h2 id="nomeAluno">Nome do aluno</h2>
+    <img id="fotoAluno" src="" alt="Foto do aluno" width="120">
+    <p><b>Curso:</b> <span id="cursoAluno">---</span></p>
+    <p><b>Matrícula:</b> <span id="matriculaAluno">---</span></p>
+    <a id="siteInstituicao" href="#">Site da instituição</a>
+  </div>
+
+  <!-- Conexão com o JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
